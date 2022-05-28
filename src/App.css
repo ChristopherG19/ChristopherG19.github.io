@@ -3,17 +3,25 @@
   min-height: 100vh;
 }
 
-.principal-content {
-  min-height: 50vh;
-  background-color: aquamarine;
+.content{
+  margin-top: 5px;
 }
 
-.secundary-content {
-  min-height: 50vh;
-  background-color: goldenrod;
-}
-
-.third-content{
-  min-height: 50vh;
-  background-color: gray;
+.btnHome{
+  position: fixed; 
+  top: 91%;
+  left: 89%;
+  width: 90px;
+  height: 40px;
+  background: #23272e;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
