@@ -10,6 +10,22 @@ body {
   min-width: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c313c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a3a1a1; 
 }
