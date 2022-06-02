@@ -8,7 +8,7 @@ const App = () => {
   
   return (
     <div className="App">
-      <a className="btnHome" type="a" href='#top'><i class="fa fa-home"> </i>Home</a>
+      <a className="btnHome" type="a" href='#top'><i className="fa fa-home"></i>&nbsp;Home</a>
       <NavBar />
       <div className='content'>
         <AboutSection />
