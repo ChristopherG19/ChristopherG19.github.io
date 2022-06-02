@@ -91,7 +91,7 @@ const PortfolioSection = () => {
                        <div className='footerTitle'>
                            <div className='ContainerLinks'>
                                <div className='box3 linkS'>
-                                    Website project:&nbsp;<a href='https://christopherg.me/' target='_blank'> Portfolio</a>
+                                    Website project:&nbsp;<a href='https://christopherg.me/'> Portfolio</a>
                                </div>
                                <div className='box3 linkG'>
                                     GitHub project:&nbsp;<a href='https://github.com/ChristopherG19/ChristopherG19.github.io.git' target='_blank'> Portfolio repository</a>
