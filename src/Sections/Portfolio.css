@@ -1,0 +1,79 @@
+.secundary-content {
+    min-height: 75vh;
+    background-color: black;
+}
+
+.BoxContainer{
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box{
+    display: flex;
+    min-height: 250px;
+    flex: 1;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footerTitle{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #2c313c;
+    color: white;
+}
+
+.span22{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    grid-column: span 2;
+}
+
+.ContainerLinks{
+    display: grid;
+    grid-template-rows: repeat(1, 50px);
+    grid-template-columns: repeat(2, 315px);
+    grid-gap: 15px;
+    grid-auto-flow: row;
+}
+
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkGB{
+    grid-column: span 2;
+}
+
+a{
+    color: white;
+}
+
+.foto{
+    width: 645px;
+    max-width: 645px;
+    max-height: 200px;
+    position: absolute;
+    opacity: 0.65; 
+}
