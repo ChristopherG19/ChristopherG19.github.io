@@ -16,7 +16,6 @@
 .box{
     display: flex;
     min-height: 250px;
-    flex: 1;
 }
 
 .box2{
