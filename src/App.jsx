@@ -4,19 +4,19 @@ import AboutSection from './Sections/About'
 import PortfolioSection from './Sections/Portfolio'
 import ContactSection from './Sections/Contact'
 
-const App = () => {
-  
-  return (
-    <div className="App">
-      <a className="btnHome" type="a" href='#top'><i className="fa fa-home"></i>&nbsp;Home</a>
-      <NavBar />
-      <div className='content'>
-        <AboutSection />
-        <PortfolioSection />
-        <ContactSection />
-      </div>
+const App = () => (
+  <div className="App">
+    <a className="btnHome" type="a" href="#top">
+      <i className="fa fa-home" />
+&nbsp;Home
+    </a>
+    <NavBar />
+    <div className="content">
+      <AboutSection />
+      <PortfolioSection />
+      <ContactSection />
     </div>
-  )
-}
+  </div>
+)
 
 export default App
